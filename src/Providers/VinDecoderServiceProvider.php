@@ -1,10 +1,10 @@
 <?php
 
-namespace Marxo\VinDecoder\Providers;
+namespace Marxolity\VinDecoder\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Marxo\VinDecoder\Services\VinDecoder\VinAudit;
-use Marxo\VinDecoder\Services\VinDecoder\VinDecoderInterface;
+use Marxolity\VinDecoder\Services\VinDecoder\VinAudit;
+use Marxolity\VinDecoder\Services\VinDecoder\VinDecoderInterface;
 use GuzzleHttp\Client;
 
 class VinDecoderServiceProvider extends ServiceProvider
@@ -31,7 +31,7 @@ class VinDecoderServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->app->runningInConsole()) {
-            // php artisan vendor:publish --provider="Marxo\VinDecoder\Providers\VinDecoderServiceProvider" --tag="config"
+            // php artisan vendor:publish --provider="Marxolity\VinDecoder\Providers\VinDecoderServiceProvider" --tag="config"
             $this->publishes([
               __DIR__.'/../config/config.php' => config_path('vindecoder.php'),
             ], 'config');

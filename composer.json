@@ -1,5 +1,5 @@
 {
-    "name": "marx/vin-decoder",
+    "name": "marxolity/vin-decoder",
     "description": "Get vehicle details by using vin",
     "require": {
         "guzzlehttp/guzzle": "^7.5"

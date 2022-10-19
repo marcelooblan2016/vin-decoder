@@ -1,7 +1,7 @@
 <?php
 
-namespace Marxo\VinDecoder\Services\VinDecoder;
-use Marxo\VinDecoder\Services\VinDecoder\VinDecoderInterface;
+namespace Marxolity\VinDecoder\Services\VinDecoder;
+use Marxolity\VinDecoder\Services\VinDecoder\VinDecoderInterface;
 use GuzzleHttp\ClientInterface;
 use Exception;
 

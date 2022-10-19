@@ -1,10 +1,10 @@
 <?php
 
-namespace Marxo\VinDecoder\Providers;
+namespace Marxolity\VinDecoder\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Marxo\VinDecoder\Services\VinDecoder\VinAudit;
-use Marxo\VinDecoder\Services\VinDecoder\VinDecoderInterface;
+use Marxolity\VinDecoder\Services\VinDecoder\VinAudit;
+use Marxolity\VinDecoder\Services\VinDecoder\VinDecoderInterface;
 use GuzzleHttp\Client;
 
 class VinDecoderServiceProvider extends ServiceProvider

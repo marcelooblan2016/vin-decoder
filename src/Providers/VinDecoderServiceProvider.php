@@ -31,7 +31,7 @@ class VinDecoderServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->app->runningInConsole()) {
-            // php artisan vendor:publish --provider="Marxo\VinDecoder\Providers\VinDecoderServiceProvider" --tag="config"
+            // php artisan vendor:publish --provider="Marxolity\VinDecoder\Providers\VinDecoderServiceProvider" --tag="config"
             $this->publishes([
               __DIR__.'/../config/config.php' => config_path('vindecoder.php'),
             ], 'config');

@@ -1,0 +1,13 @@
+{
+    "name": "marx/vin-decoder",
+    "description": "Get vehicle details by using vin",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "Marcelo Oblan",
+            "email": "marcelo.oblan2016@gmail.com"
+        }
+    ]
+}

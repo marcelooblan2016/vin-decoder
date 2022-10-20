@@ -24,6 +24,7 @@ VIN_DECODER_VIN_AUDIT_API_KEY="<<API_KEY_HERE>>"
 ```
 ## Usage
 ```bash
-   \VinDecoder::getMarketValueByVin('WP1AA2A5XHLB04821'); # output: ?array (array or null)
+   \VinDecoder::getMarketValueByVin('1NXBR32E85Z505904'); # output: ?array (array or null)
+   \VinDecoder::getVehicleSpecificationByVin('1NXBR32E85Z505904'); # output: ?array (array or null)
 ```
 
